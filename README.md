@@ -10,7 +10,7 @@ This twitterbot tweets an image of all airborne Cathay Pacific aircraft every ho
 
 2. I like planes ([shoutout to The Flying Moose](https://www.youtube.com/channel/UCC2b7zRRgBDAK6QSiqOrdPQ)) and Cathay Pacific + CX have really struggled during COVID → wanted to give people a a friendly reminder that this airline is still alive :^)
 
-## How it works:
+## how it works
 - Cycles through all icao24 numbers of Cathay's fleet
 - Calls the [open sky API](https://openskynetwork.github.io/opensky-api/rest.html) to retrieve current state of all aircraft
 - If aircraft are airborne, creates a staticmap and tweets it
